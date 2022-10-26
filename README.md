@@ -174,7 +174,32 @@ https://user-images.githubusercontent.com/59892368/198079415-6b6238f8-b5ae-4273-
  
 
 
+<!---
 
+Diretório Visual Studio Projetos
+
+C:\Users\diegooliveira\source\repos
+
+=====  ATIVIDADES  =====
+
+Implementaçao JSON C# ✔️ 
+
+https://medium.com/netcoders/alterando-o-conte%C3%BAdo-de-arquivos-no-formato-json-via-c%C3%B3digo-c-2b1c2322cbee
+
+Unificação de eventos
+
+https://learn.microsoft.com/pt-br/dotnet/desktop/winforms/controls/overview-of-using-controls-in-windows-forms?view=netframeworkdesktop-4.8
+
+loop elementos windows form
+https://stackoverflow.com/questions/74195128/is-there-any-general-windowsformapp-event-listener
+
+definir qual tipo para cada foreach
+https://stackoverflow.com/questions/1499049/foreach-control-in-form-how-can-i-do-something-to-all-the-textboxes-in-my-form
+
+passar uma funcao<void> com parametro como parametro em outra função
+ https://www.delftstack.com/pt/howto/csharp/pass-function-as-parameter-inside-another-function-in-csharp/
+
+--->
 
 
 
