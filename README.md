@@ -56,7 +56,7 @@ EXEMPLO
   <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#--sobre-a-aplica%C3%A7%C3%A3o-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-inserindo-arquivos"> Inserindo Arquivos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-exemplo-c%C3%B3digo-">Exemplo Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
+<a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp/edit/main/README.md#-pesquisa-f%C3%B3runs-discuss%C3%A3o-"> Pesquisa, Fóruns, Discussão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  
 </p>  
 
@@ -163,8 +163,19 @@ https://user-images.githubusercontent.com/59892368/198079415-6b6238f8-b5ae-4273-
  
  
 
-
+<!------------------------------------EXAMPLE OF USE-->  
+ 
+ # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/198088694-8fb97b5c-75c2-42ea-ac41-5c0d797386a5.png"> Pesquisa, Fóruns, Discussão <!---write here: forum, fonts, links -->
    
+
+###  `Unificação de eventos`
+ * [`Learn Microsoft`](https://learn.microsoft.com/pt-br/dotnet/desktop/winforms/controls/overview-of-using-controls-in-windows-forms?view=netframeworkdesktop-4.8)
+ * [`StackeOverFlow`](https://stackoverflow.com/questions/74195128/is-there-any-general-windowsformapp-event-listener)
+ 
+
+
+
+
 
 
 
