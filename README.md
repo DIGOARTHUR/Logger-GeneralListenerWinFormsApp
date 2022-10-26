@@ -67,24 +67,104 @@ EXEMPLO
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação <!---write here : talk a little about project: what's does, example.  -->
 > Esta classe e a interface tem como objetivos: 
- * Funcionalidade de Log. Será feita um registro de ações dos elementos contidos no WindowsFormApp em formatos `.txt` e `.json` .
- * Foi feita uma interface para a implementação, `automatizada`, de um único manipulador para elementos inseridos na tela do WindowsFormApp. 
- Ou seja, a partir do momento que o elemento é inserido, o `WindowsFormsApp identifica` e o manipulador único é injetado na `funcionalidade de evento`.
-  
+ * Funcionalidade de Log. Será feita um registro de ações dos elementos (ToolBox) contidos no WindowsFormApp em formatos `.txt` e `.json` .
+ * Foi feita uma interface para a implementação, `automatizada`, de um único manipulador para elementos (ToolBox)  inseridos na tela do WindowsFormApp. 
+ Ou seja, a partir do momento que o elemento (ToolBox)  é inserido, o `WindowsFormsApp identifica` e o manipulador único é injetado na `funcionalidade de evento`.
+ 
+  ###  💡 Eventos implementados:
+ * `Click`
+ 
 
      
    
-   
-  
-<!------------------------------------HOW TO IMPLEMENT?-->
+<!------------------------------------RUN APP-->
+ 
+ # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142216697-dd93272c-c614-4664-9d63-c4e4dfc3e0f3.gif"> Inserindo arquivos.
+
+### 1. Clonar repositório:
+
+```
+git clone https://github.com/DIGOARTHUR/personWebsite.git
+```
+
+### 2. Acesse sua aplicação WindowsFormApp:
+
+|                                 Exemplo: aplicação WindowsFormApp                   |
+| :--------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/198069480-6e7fc23b-fc6f-4729-a9f8-ed87ed4b6b86.png)|
+
+### 3. Insira os arquivos clonados na sua aplicação:
+
+|                                 Exemplo: inserindo arquivos na aplicação WindowsFormApp                  |
+| :--------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/198070750-92057b48-b8d3-45e7-b41a-3c8ebfb7e8f1.png)|
+
+|                                 Exemplo: arquivos já inseridos                  |
+| :--------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/198071202-1750620e-a519-4834-972c-6ced3fd543d6.png)|
 
 
-# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/198063201-c05a4f50-d24d-412f-9d55-f27a114053fe.svg">  Como implementar? <!---write here : demonstration of the application layout.  -->
+### 4. Faça referência desta classe, caso contrário a implementação dará erro:
 
-    
+|                                 Exemplo: referenciando classe System.Web.Script.Serialization                 |
+| :--------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/198072945-7deb169a-c9e4-43dd-a8c9-7c58cdb2fc3c.png)|
 
-  
-  
+### 5. Acesse a classe Form para começar a mexer no código:
+
+|                                 Exemplo: acessando a classe Form               |
+| :--------------------------------------------------------------: |
+|  ![image](https://user-images.githubusercontent.com/59892368/198075740-ea6f5a8a-0a83-47ac-967e-397dfe7c6f9d.png)|
+
+### 6. Siga os <a href="https://github.com/DIGOARTHUR/Proffy#--sobre-a-aplicação-">Exemplos de Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+### 7. Após a implementaçâo, insira elementos que possuam o evento Click como: Button, CheckBox, CheckedListBox, ComboBox, Label, LinkLabel...  etc.
+
+|                                 Exemplo: elementos inseridos             |
+| :--------------------------------------------------------------: |
+|  ![image](https://user-images.githubusercontent.com/59892368/198076561-609534c9-be32-42e1-8224-995ed6b84ddc.png)|
+
+### 8. De agora em diante implemente funcionalidades a partir do evento.
+
+
+ <!------------------------------------EXAMPLE OF USE-->  
+ 
+ # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/198074644-9c48c7f1-23fe-4fba-b489-c787cdbbb15e.svg"> Exemplo Código <!---write here: example codes -->
+ 
+ ```c#
+    public partial class Form1 : Form, IWindowsFormAppListener
+    {
+        Logger logger = new Logger();
+
+        public Form1()
+        {
+            InitializeComponent();
+            windowsFormAppControl();
+        }
+
+        public void _HandleEvents(object sender, EventArgs e)
+        {
+            Console.WriteLine(sender);
+            bool maxFileSize = logger.writeFileLog(sender.ToString());
+            if (maxFileSize)
+            {
+                logger = new Logger();
+            }
+        }
+
+        public void windowsFormAppControl()
+        {
+            logger.addGeneralEvent(this.Controls, _HandleEvents);
+
+        }
+    }
+```
+ 
+https://user-images.githubusercontent.com/59892368/198079415-6b6238f8-b5ae-4273-8007-9b5092f31575.mp4
+ 
+ 
+
+
   <!------------------------------------LIST: STACKS , LIBS & TOOLS-->
 
 ## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks <!---write here: learned concepts; -->
@@ -115,62 +195,7 @@ EXEMPLO
  ### IDE
  <a href="https://code.visualstudio.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-VisualStudioCode-/?logo=VisualStudioCode&logoColor=white&color=informational)<a/> 
    
-  <!------------------------------------OBS-->
-   # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622723-8e753e71-6bbf-46c3-b1b5-4fcc3d841a88.png"> Algumas observações
 
-:white_check_mark: FrontEnd
-
-:white_square_button: BackEnd
- 
-  <!------------------------------------RUN APP-->
- 
- # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142216697-dd93272c-c614-4664-9d63-c4e4dfc3e0f3.gif"> Rodando a Aplicação
- 
-
-1. Clonar repositório:
-
-```
-git clone https://github.com/DIGOARTHUR/personWebsite.git
-```
-
-2. Instalar dependências
-
-```
-yarn install
-```
-
-3. Rodar aplicativo
-
-```
-yarn dev
-```
-
-4. Acesse `http://localhost:3000/` e navegue pelo site
-
-:warning: 5. Trocar URL do repositorio remoto (caso necessário)
-
-  5.1 Ver qual o repositorio atual
-```
-git remote -v
-```
-  5.2 Mudar a URL do repositorio remoto
-```
-git remote set-url origin <LinkDoNovoRepositorio>
-```
-  5.3 Verifique se a mudança foi realizada
-```
-git remote -v
-```
-
-
-
-  <!------------------------------------WHY/THANKS --->
-
-
-# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197643886-779de461-9dd9-4aa7-a904-177fd5e38cd0.png">  Por que? <!---write here : why -->
- ---
-
->
 
 
 
