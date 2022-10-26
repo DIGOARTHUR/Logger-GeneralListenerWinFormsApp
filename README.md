@@ -53,11 +53,10 @@ EXEMPLO
 
    <!------------------------------------SUMMARY-->
 <p align="center">
-  <a href="https://github.com/DIGOARTHUR/Proffy#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Proffy#--por-que-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Proffy#-stacks-">Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Proffy#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="https://github.com/DIGOARTHUR/Proffy#--por-que-">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#--sobre-a-aplica%C3%A7%C3%A3o-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-inserindo-arquivos"> Inserindo Arquivos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-exemplo-c%C3%B3digo-">Exemplo Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
  
 </p>  
 
@@ -116,7 +115,7 @@ git clone https://github.com/DIGOARTHUR/personWebsite.git
 | :--------------------------------------------------------------: |
 |  ![image](https://user-images.githubusercontent.com/59892368/198075740-ea6f5a8a-0a83-47ac-967e-397dfe7c6f9d.png)|
 
-### 6. Siga os <a href="https://github.com/DIGOARTHUR/Proffy#--sobre-a-aplicação-">Exemplos de Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+### 6. Siga os <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-exemplo-c%C3%B3digo-">Exemplos de Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
 ### 7. Após a implementaçâo, insira elementos que possuam o evento Click como: Button, CheckBox, CheckedListBox, ComboBox, Label, LinkLabel...  etc.
 
@@ -165,35 +164,6 @@ https://user-images.githubusercontent.com/59892368/198079415-6b6238f8-b5ae-4273-
  
 
 
-  <!------------------------------------LIST: STACKS , LIBS & TOOLS-->
-
-## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks <!---write here: learned concepts; -->
-
-### Lógica 
-*  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
-   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
-   
-### Estilização 
-* <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
-  * [`Global Style`]()
-     * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
-     * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
-  * [`Flexbox`](https://origamid.com/projetos/flexbox-guia-completo/) (Modelo Layout)
-  * [`Grid`](https://www.origamid.com/projetos/css-grid-layout-guia-completo/) (Modelo Layout)
-
-   
-### Framework / Lib
-  
-* <a href="https://reactjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=React&logoColor=white&color=blue)<a/> 
-  * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
-  * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
-  * [`Props`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
-  * [`react-router-dom`](https://v5.reactrouter.com/web/guides/quick-start) (Biblioteca utilizada para definir rodas das páginas construídas)
-
- ### Versionameto
- <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
- ### IDE
- <a href="https://code.visualstudio.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-VisualStudioCode-/?logo=VisualStudioCode&logoColor=white&color=informational)<a/> 
    
 
 
