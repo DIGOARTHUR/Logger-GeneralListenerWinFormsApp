@@ -83,7 +83,7 @@ EXEMPLO
 ### 1. Clonar repositório:
 
 ```
-git clone https://github.com/DIGOARTHUR/personWebsite.git
+git clone https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp.git
 ```
 
 ### 2. Acesse sua aplicação WindowsFormApp:
