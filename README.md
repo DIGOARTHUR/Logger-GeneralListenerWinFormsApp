@@ -66,7 +66,7 @@ EXEMPLO
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação <!---write here : talk a little about project: what's does, example.  -->
 > Esta classe e a interface tem como objetivos: 
- * Funcionalidade de Log. Será feita um registro de ações dos elementos (ToolBox) contidos no WindowsFormApp em formatos `.txt` e `.json` .
+ * Classe com funcionalidades de Log. Será feita um registro de ações dos elementos (ToolBox) contidos no WindowsFormApp em formatos `.txt` e `.json` .
  * Foi feita uma interface para a implementação, `automatizada`, de um único manipulador para elementos (ToolBox)  inseridos na tela do WindowsFormApp. 
  Ou seja, a partir do momento que o elemento (ToolBox)  é inserido, o `WindowsFormsApp identifica` e o manipulador único é injetado na `funcionalidade de evento`.
  
