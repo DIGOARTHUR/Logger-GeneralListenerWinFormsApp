@@ -23,7 +23,7 @@ EXEMPLO
  <!------------------------------------PROJECT SHIELD-->
 ![GitHub last commit](https://img.shields.io/github/last-commit/digoarthur/Logger-GeneralListenerWinFormsApp)
 ![GitHub](https://img.shields.io/github/license/digoarthur/Logger-GeneralListenerWinFormsApp)
-    ![GitHub](https://img.shields.io/badge/-Em%20Desenvolvimento-brightgreen)
+  
   
 
  <!------------------------------------STACKS-->
