@@ -56,7 +56,7 @@ EXEMPLO
   <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#--sobre-a-aplica%C3%A7%C3%A3o-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-inserindo-arquivos"> Inserindo Arquivos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-exemplo-c%C3%B3digo-">Exemplo Código</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp/edit/main/README.md#-pesquisa-f%C3%B3runs-discuss%C3%A3o-"> Pesquisa, Fóruns, Discussão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/DIGOARTHUR/Logger-GeneralListenerWinFormsApp#-pesquisa-fóruns-discussão-"> Pesquisa, Fóruns, Discussão</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  
 </p>  
 
